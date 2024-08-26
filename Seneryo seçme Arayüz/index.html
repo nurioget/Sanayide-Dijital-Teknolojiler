@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senaryo Seçici</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="btn-group mb-4" role="group">
+            <button type="button" class="btn btn-primary active" onclick="showPage('bosYukPage', this)">Boş Yük Senaryoları</button>
+            <button type="button" class="btn btn-secondary" onclick="showPage('doluYukPage', this)">Dolu Yük Senaryoları</button>
+        </div>
+
+        <div id="bosYukPage" class="tab-content active-tab-content container mt-3">
+            <div class="scenario-section">
+                <h3>Boş Yük Senaryoları</h3>
+                <div class="form-check">
+                    <input class="form-check-input scenario-radio" type="radio" name="senaryoRadio" id="bosTur1" value="bosTur-1-seneryo">
+                    <label class="form-check-label" for="bosTur1">Boş Tur 1</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input scenario-radio" type="radio" name="senaryoRadio" id="bosTur2" value="bosTur-2-seneryo">
+                    <label class="form-check-label" for="bosTur2">Boş Tur 2</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input scenario-radio" type="radio" name="senaryoRadio" id="bosTur3" value="bosTur-3-seneryo">
+                    <label class="form-check-label" for="bosTur3">Boş Tur 3</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input scenario-radio" type="radio" name="senaryoRadio" id="bosTur4" value="bosTur-4-seneryo">
+                    <label class="form-check-label" for="bosTur4">Boş Tur 4</label>
+                </div>
+                <button class="btn btn-success mt-3" onclick="confirmSelection()">Onayla</button>
+            </div>
+            <div style="margin-top: 30px;" id="selectedScenario">
+                <h3>Seçilen Senaryo</h3>
+                <p id="selectedScenarioText"></p>
+            </div>
+        </div>
+
+        <div id="doluYukPage" class="tab-content container mt-3">
+            <div class="scenario-section">
+                <h3>Dolu Yük Senaryoları</h3>
+                <div class="form-check">
+                    <input class="form-check-input scenario-radio" type="radio" name="senaryoRadio" id="yukluTur1" value="yüklüTur-1-seneryo">
+                    <label class="form-check-label" for="yukluTur1">Yüklü Tur 1</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input scenario-radio" type="radio" name="senaryoRadio" id="yukluTur2" value="yüklüTur-2-seneryo">
+                    <label class="form-check-label" for="yukluTur2">Yüklü Tur 2</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input scenario-radio" type="radio" name="senaryoRadio" id="yukluTur3" value="yüklüTur-3-seneryo">
+                    <label class="form-check-label" for="yukluTur3">Yüklü Tur 3</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input scenario-radio" type="radio" name="senaryoRadio" id="yukluTur4" value="yüklüTur-4-seneryo">
+                    <label class="form-check-label" for="yukluTur4">Yüklü Tur 4</label>
+                </div>
+                <button class="btn btn-success mt-3" onclick="confirmSelection()">Onayla</button>
+            </div>
+            <div style="margin-top: 30px;" id="selectedScenario">
+                <h3>Seçilen Senaryo</h3>
+                <p id="selectedScenarioText"></p>
+            </div>
+        </div>
+
+        <div id="senaryoTablo" class="container mt-4">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Senaryo</th>
+                        <th>Başlangıç</th>
+                        <th>Bitiş</th>
+                        <th>QR Kodları</th>
+                    </tr>
+                </thead>
+                <tbody id="senaryoTabloBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
