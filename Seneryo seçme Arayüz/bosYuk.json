@@ -1,0 +1,289 @@
+{
+    "scenarios": [
+      {
+        "scenario": "bosTur-1-seneryo",
+        "movements": [
+          {
+            "start": "S1",
+            "end": "3",
+            "qrcodes": [
+              {"id": "Q21", "coordinates": {"x": 9000, "y": 12500}},
+              {"id": "Q20", "coordinates": {"x": 9625, "y": 12500}},
+              {"id": "Q19", "coordinates": {"x": 11625, "y": 12500}},
+              {"id": "Q18", "coordinates": {"x": 12250, "y": 12500}},
+              {"id": "Q17", "coordinates": {"x": 14250, "y": 12500}},
+              {"id": "Q16", "coordinates": {"x": 15000, "y": 12500}}
+            ]
+          },
+          {
+            "start": "3",
+            "end": "4",
+            "qrcodes": [
+              {"id": "Q14", "coordinates": {"x": 16000, "y": 1000}},
+               {"id": "Q15", "coordinates": {"x": 16000, "y": 11500}}
+            ]
+          },
+          {
+            "start": "4",
+            "end": "S2",
+            "qrcodes": [
+              {"id": "Q13", "coordinates": {"x": 15000, "y": 0}},
+              {"id": "Q12", "coordinates": {"x": 14250, "y": 0}},
+              {"id": "Q11", "coordinates": {"x": 12250, "y": 0}},
+              {"id": "Q10", "coordinates": {"x": 11625, "y": 0}},
+              {"id": "Q9", "coordinates": {"x": 9625, "y": 0}},
+              {"id": "Q8", "coordinates": {"x": 9000, "y": 0}},
+              {"id": "Q7", "coordinates": {"x": 8000, "y": 0}}
+            ]
+          },
+          {
+            "start": "S2",
+            "end": "1",
+            "qrcodes": [
+              {"id": "Q6", "coordinates": {"x": 7000, "y": 0}},
+              {"id": "Q5", "coordinates": {"x": 6375, "y": 0}},
+              {"id": "Q4", "coordinates": {"x": 4375, "y": 0}},
+              {"id": "Q3", "coordinates": {"x": 3750, "y": 0}},
+              {"id": "Q2", "coordinates": {"x": 1750, "y": 0}},
+              {"id": "Q1", "coordinates": {"x": 1000, "y": 0}}
+            ]
+          },
+          {
+            "start": "1",
+            "end": "2",
+            "qrcodes": [
+              {"id": "Q29", "coordinates": {"x": 0, "y": 11500}}, 
+              {"id": "Q30", "coordinates": {"x": 0, "y": 1000}}
+            ]
+          },
+          {
+            "start": "2",
+            "end": "S1",
+            "qrcodes": [
+              {"id": "Q28", "coordinates": {"x": 1000, "y": 12500}},
+              {"id": "Q27", "coordinates": {"x": 1750, "y": 12500}},
+              {"id": "Q26", "coordinates": {"x": 3750, "y": 12500}},
+              {"id": "Q25", "coordinates": {"x": 4375, "y": 12500}},
+              {"id": "Q24", "coordinates": {"x": 6375, "y": 12500}},
+              {"id": "Q23", "coordinates": {"x": 7000, "y": 12500}},
+              {"id": "Q22", "coordinates": {"x": 8000, "y": 12500}}
+            ]
+          }
+        ]
+      },
+      {
+        "scenario": "bosTur-2-seneryo",
+        "movements": [
+          {
+            "start": "S1",
+            "end": "2",
+            "qrcodes": [
+              {"id": "Q23", "coordinates": {"x": 7000, "y": 12500}},
+              {"id": "Q24", "coordinates": {"x": 6375, "y": 12500}},
+              {"id": "Q25", "coordinates": {"x": 4375, "y": 12500}},
+              {"id": "Q26", "coordinates": {"x": 3750, "y": 12500}},
+              {"id": "Q27", "coordinates": {"x": 1750, "y": 12500}},
+              {"id": "Q28", "coordinates": {"x": 1000, "y": 12500}}
+            ]
+          },
+          {
+            "start": "2",
+            "end": "1",
+            "qrcodes": [
+              {"id": "Q29", "coordinates": {"x": 0, "y": 11500}},
+              {"id": "Q30", "coordinates": {"x": 0, "y": 1000}}
+            ]
+          },
+          {
+            "start": "1",
+            "end": "S2",
+            "qrcodes": [
+              {"id": "Q1", "coordinates": {"x": 1000, "y": 0}},
+              {"id": "Q2", "coordinates": {"x": 1750, "y": 0}},
+              {"id": "Q3", "coordinates": {"x": 3750, "y": 0}},
+              {"id": "Q4", "coordinates": {"x": 4375, "y": 0}},
+              {"id": "Q5", "coordinates": {"x": 6375, "y": 0}},
+              {"id": "Q6", "coordinates": {"x": 7000, "y": 0}},
+              {"id": "Q7", "coordinates": {"x": 8000, "y": 0}}
+            ]
+          },
+          {
+            "start": "S2",
+            "end": "4",
+            "qrcodes": [
+              {"id": "Q8", "coordinates": {"x": 9000, "y": 0}},
+              {"id": "Q9", "coordinates": {"x": 9625, "y": 0}},
+              {"id": "Q10", "coordinates": {"x": 11625, "y": 0}},
+              {"id": "Q11", "coordinates": {"x": 12250, "y": 0}},
+              {"id": "Q12", "coordinates": {"x": 14250, "y": 0}},
+              {"id": "Q13", "coordinates": {"x": 15000, "y": 0}}
+            ]
+          },
+          {
+            "start": "4",
+            "end": "3",
+            "qrcodes": [
+              {"id": "Q14", "coordinates": {"x": 16000, "y": 1000}},
+              {"id": "Q15", "coordinates": {"x": 16000, "y": 11500}}
+            ]
+          },
+          {
+            "start": "3",
+            "end": "S1",
+            "qrcodes": [
+              {"id": "Q16", "coordinates": {"x": 15000, "y": 12500}},
+              {"id": "Q17", "coordinates": {"x": 14250, "y": 12500}},
+              {"id": "Q18", "coordinates": {"x": 12250, "y": 12500}},
+              {"id": "Q19", "coordinates": {"x": 11625, "y": 12500}},
+              {"id": "Q20", "coordinates": {"x": 9625, "y": 12500}},
+              {"id": "Q21", "coordinates": {"x": 9000, "y": 12500}},
+              {"id": "Q22", "coordinates": {"x": 8000, "y": 12500}}
+            ]
+          }
+        ]
+      },
+      {
+        "scenario": "bosTur-3-seneryo",
+        "movements": [
+          {
+            "start": "S2",
+            "end": "1",
+            "qrcodes": [
+              {"id": "Q6", "coordinates": {"x": 7000, "y": 0}},
+              {"id": "Q5", "coordinates": {"x": 6375, "y": 0}},
+              {"id": "Q4", "coordinates": {"x": 4375, "y": 0}},
+              {"id": "Q3", "coordinates": {"x": 3750, "y": 0}},
+              {"id": "Q2", "coordinates": {"x": 1750, "y": 0}},
+              {"id": "Q1", "coordinates": {"x": 1000, "y": 0}}
+            ]
+          },
+          {
+            "start": "1",
+            "end": "2",
+            "qrcodes": [
+              {"id": "Q30", "coordinates": {"x": 0, "y": 1000}},
+              {"id": "Q29", "coordinates": {"x": 0, "y": 11500}}
+            ]
+          },
+          {
+            "start": "2",
+            "end": "S1",
+            "qrcodes": [
+              {"id": "Q28", "coordinates": {"x": 1000, "y": 12500}},
+              {"id": "Q27", "coordinates": {"x": 1750, "y": 12500}},
+              {"id": "Q26", "coordinates": {"x": 3750, "y": 12500}},
+              {"id": "Q25", "coordinates": {"x": 4375, "y": 12500}},
+              {"id": "Q24", "coordinates": {"x": 6375, "y": 12500}},
+              {"id": "Q23", "coordinates": {"x": 7000, "y": 12500}},
+              {"id": "Q22", "coordinates": {"x": 8000, "y": 12500}}
+            ]
+          },
+          {
+            "start": "S1",
+            "end": "3",
+            "qrcodes": [
+              {"id": "Q21", "coordinates": {"x": 9000, "y": 12500}},
+              {"id": "Q20", "coordinates": {"x": 9625, "y": 12500}},
+              {"id": "Q19", "coordinates": {"x": 11625, "y": 12500}},
+              {"id": "Q18", "coordinates": {"x": 12250, "y": 12500}},
+              {"id": "Q17", "coordinates": {"x": 14250, "y": 12500}},
+              {"id": "Q16", "coordinates": {"x": 15000, "y": 12500}}
+            ]
+          },
+          {
+            "start": "3",
+            "end": "4",
+            "qrcodes": [
+              {"id": "Q15", "coordinates": {"x": 16000, "y": 11500}},
+              {"id": "Q14", "coordinates": {"x": 16000, "y": 1000}}
+            ]
+          },
+          {
+            "start": "4",
+            "end": "S2",
+            "qrcodes": [
+              {"id": "Q13", "coordinates": {"x": 15000, "y": 0}},
+              {"id": "Q12", "coordinates": {"x": 14250, "y": 0}},
+              {"id": "Q11", "coordinates": {"x": 12250, "y": 0}},
+              {"id": "Q10", "coordinates": {"x": 11625, "y": 0}},
+              {"id": "Q9", "coordinates": {"x": 9625, "y": 0}},
+              {"id": "Q8", "coordinates": {"x": 9000, "y": 0}},
+              {"id": "Q7", "coordinates": {"x": 8000, "y": 0}}
+            ]
+          }
+        ]
+      },
+      {
+        "scenario": "bosTur-4-seneryo",
+        "movements": [
+          {
+            "start": "S2",
+            "end": "4",
+            "qrcodes": [
+              {"id": "Q8", "coordinates": {"x": 9000, "y": 0}},
+              {"id": "Q9", "coordinates": {"x": 9625, "y": 0}},
+              {"id": "Q10", "coordinates": {"x": 11625, "y": 0}},
+              {"id": "Q11", "coordinates": {"x": 12250, "y": 0}},
+              {"id": "Q12", "coordinates": {"x": 14250, "y": 0}},
+              {"id": "Q13", "coordinates": {"x": 15000, "y": 0}}
+            ]
+          },
+          {
+            "start": "4",
+            "end": "3",
+            "qrcodes": [
+              {"id": "Q14", "coordinates": {"x": 16000, "y": 1000}},
+              {"id": "Q15", "coordinates": {"x": 16000, "y": 11500}}
+            ]
+          },
+          {
+            "start": "3",
+            "end": "S1",
+            "qrcodes": [
+              {"id": "Q16", "coordinates": {"x": 15000, "y": 12500}},
+              {"id": "Q17", "coordinates": {"x": 14250, "y": 12500}},
+              {"id": "Q18", "coordinates": {"x": 12250, "y": 12500}},
+              {"id": "Q19", "coordinates": {"x": 11625, "y": 12500}},
+              {"id": "Q20", "coordinates": {"x": 9625, "y": 12500}},
+              {"id": "Q21", "coordinates": {"x": 9000, "y": 12500}},
+              {"id": "Q22", "coordinates": {"x": 8000, "y": 12500}}
+            ]
+          },
+          {
+            "start": "S1",
+            "end": "2",
+            "qrcodes": [
+              {"id": "Q23", "coordinates": {"x": 7000, "y": 12500}},
+              {"id": "Q24", "coordinates": {"x": 6375, "y": 12500}},
+              {"id": "Q25", "coordinates": {"x": 4375, "y": 12500}},
+              {"id": "Q26", "coordinates": {"x": 3750, "y": 12500}},
+              {"id": "Q27", "coordinates": {"x": 1750, "y": 12500}},
+              {"id": "Q28", "coordinates": {"x": 1000, "y": 12500}}
+            ]
+          },
+          {
+            "start": "2",
+            "end": "1",
+            "qrcodes": [
+              {"id": "Q29", "coordinates": {"x": 0, "y": 11500}},
+              {"id": "Q30", "coordinates": {"x": 0, "y": 1000}}
+            ]
+          },
+          {
+            "start": "1",
+            "end": "S2",
+            "qrcodes": [
+              {"id": "Q1", "coordinates": {"x": 1000, "y": 0}},
+              {"id": "Q2", "coordinates": {"x": 1750, "y": 0}},
+              {"id": "Q3", "coordinates": {"x": 3750, "y": 0}},
+              {"id": "Q4", "coordinates": {"x": 4375, "y": 0}},
+              {"id": "Q5", "coordinates": {"x": 6375, "y": 0}},
+              {"id": "Q6", "coordinates": {"x": 7000, "y": 0}},
+              {"id": "Q7", "coordinates": {"x": 8000, "y": 0}}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
